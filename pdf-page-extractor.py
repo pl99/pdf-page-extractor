@@ -36,7 +36,7 @@ def extract_pages(input_file, start_page, end_page):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Использование: python script.py <pdf_file> <start_page> <end_page>")
+        print(f"Использование: python {sys.argv[0]} <pdf_file> <start_page> <end_page>")
         sys.exit(1)
 
     input_pdf = sys.argv[1]
