@@ -10,7 +10,7 @@ pip install PyPDF2
 
 # Использование
 
-python script.py input.pdf 1 5
+python pdf-page-extractor.py input.pdf 1 5
 
 # Результат
 
